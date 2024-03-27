@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Portfolio Website - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/cc8a15ce13.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+      <img src="images/logo.jpg" class="logo">
+      <ul id="sidemenu">
+      <li><a href="#header">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">My Expertise</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <i class="fa-solid fa-xmark" onClick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onClick="openmenu()"></i>
+
+      </nav>
+      <div class="header-text">
+        
+        <h1>Hi,I'm <span>Manjuthanikaslam</span><br>a skilled and creative<br> web developer </h1>
+      </div>
+      </div>
+  </div>
+  <div id="about">
+    <div class="container">
+    <div class="row">
+    <div class="about-col-1">
+     <img src="images/image3.jpeg">  
+    </div>
+    <div class="about-col-2">
+       
+          <h1 class="sub-title">About Me </h1>
+          <p>Hello,I am Manju,currently persuing BE,computer science and engineering,in Sri Eshwar college of engineering.I am interested in the field of Cyber security.
+            I am one of the well trained pupil of eshwarites.Team work,leadership quality,colloboration,communication,active listening are some of my qualifications. Strong team player with excellent communication skills. Committed to academic excellence and eager to contribute enthusiasm and a fresh perspective to real-world engineering challenges. Seeking opportunities to apply classroom knowledge in a dynamic and collaborative environment.I am open to internships or projects that challenge and expand current skill sets.  </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('internship')">Internship</p>
+              </div>
+              <div class="tab-contents active-tab" id="education">
+                <ul>
+                <li><span>SSLC</span><br> Sri vidya mandhir Mat.Hr.Sec.School,Rasipuram</li>
+                <li><span>HSC</span><br>Sri vidya mandhir Mat.Hr.Sec.School,Rasipuram</li>
+                <li><span>BE</span><br>computer science and engineering<br>Sri Eshwar college of engineering,Coimbatore</li>
+                </ul>
+                </div>
+                <div class="tab-contents" id="skills" >
+                  <ul>
+                  <li><span>leadership</span><br>Proven leader with a track record of motivating teams and driving successful outcomes through effective communication</li>
+                  <li><span>Communication</span><br>Clear and concise communicator skilled in conveying complex technical information to diverse audiences, fostering collaboration and understanding.</li>
+                 <li><span>Mentor</span><br>As a prove of the things said above,it is honour to say that I am a member in college mentoring club as one of the mentor</li>
+                  </ul>
+                  </div>
+                  <div class="tab-contents" id="internship">
+                    <ul>
+                    <li><span>Java and Python development</span><br> One month internship at Octanet Services Pvt Ltd</li>
+                    <li><span>Full course on React and JS </span><br>15 days internship by "The Better Tomorrow" organization</li>
+                    
+                    </ul>
+                    </div>
+                    
+          </div>
+    </div>
+    </div>
+    </div>
+    <div id="services">
+      <div class="container">
+      <h1 class="sub-title">My Expertise</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>Creative web designer with a keen eye for aesthetics and a proven track record of delivering visually engaging and user-friendly websites that align with clients' objectives</p>|
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>App design</h2>
+          <p>Innovative app designer with a flair for crafting visually appealing and user-centric mobile applications.Committed to creating intuitive and engaging app interfaces that resonate with diverse audiences.I can able to use all kind of tools such as construct,canva,Reaxt JS also</p>
+
+
+
+
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>UI/UX Design</h2>
+          <p>Versatile UI/UX designer specializing in creating seamless and intuitive digital experiences. Proficient in user-centered design principles, blending aesthetics with functionality to enhance overall usability and satisfaction.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+      </div>
+      </div>
+      
+      
+      <section class="projects" id="projects">
+        <h1 class="heading">Projects</h1>
+      <div class="projects-container">
+          <div class="projects-box">
+              <img src="images/taskmanagement.avif" height="250px">
+              <div class="portfolio-layer">
+                  <h4>Task management System</h4>
+                  <p>Developed a robust task management system software utilizing JavaFX for the front-end interface and MongoDB for efficient data storage and retrieval. Implemented features for task creation, categorization, prioritization, and tracking, ensuring seamless user experience and efficient task management.</p>
+                  </div>
+              </div>
+              <div class="projects-box">
+                <img src="images/FIND-MY-PHONE.jpg" height="250px">
+                <div class="portfolio-layer">
+                    <h4>Mobile Finder</h4>
+                    <p>Developed mobile tracking software leveraging cybersecurity expertise and utilizing IP address tracking capabilities to enhance mobile device security and facilitate location-based tracking.</p>
+  
+                </div></div>
+                <div class="projects-box">
+                  <img src="images/moviebot.png" height="250px">
+                  <div class="portfolio-layer">
+                      <h4>Movie chat bot</h4>
+                      <p>"Designed and implemented a Python-based movie chatbot enabling users to input director, hero, heroine, and genre preferences, delivering tailored movie recommendations and information.</p>
+
+                  </div></div>
+          </div>
+      </div>
+    </section>
+<div id="contact">
+  <div class="container">
+  <div class="row">
+  <div class="contact-left">
+  <h1 class="sub-title">Contact Me </h1>
+  
+  <p><i class="fa-solid fa-paper-plane"></i>manjuthanikaslam2004@gmail.com</p>
+  <p><i class="fa-solid fa-phone"></i>+91 9344244373</p>
+  <div class="social-icons">
+  
+  <a href="https://github.com/manjuthanikasalam"><i class="fa-brands fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/manju-thanikasalam-70b877259"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="https://www.instagram.com/manju_thanikasalam/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+  </div>
+  <a href="images/resume.jpeg" download class="btn btn2">View CV</a>
+  
+  
